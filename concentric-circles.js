@@ -1,8 +1,9 @@
-createCanvas(250, 250);
-for (var i = 5; i <= 200; i = i + 10) {
-  var startX = 125;
-  var startY = 125;
-  var w = 480;
+createCanvas(300, 300);
+for (var i = 15; i <= 300; i = i + 10) {
+  var startX = 150;
+  var startY = 150;
+  var w = i;
   var h = i;
+  noFill();
   ellipse(startX, startY, w, h);
 }
