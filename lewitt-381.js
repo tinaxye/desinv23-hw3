@@ -1,0 +1,11 @@
+createCanvas(300, 300);
+colorMode(HSB);
+noStroke();
+fill("grey");
+rect(10, 10, 140, 140);
+fill(54, 78, 96);
+rect(150, 10, 140, 140);
+fill(333, 78, 89);
+rect(10, 150, 140, 140);
+fill(211, 69, 93);
+rect(150, 150, 140, 140);
